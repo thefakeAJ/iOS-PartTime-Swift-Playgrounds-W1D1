@@ -35,6 +35,8 @@ count = 10 * 2
 
 var goodbye = "Go fuck yourself."
 
+greeting = "Hello World!"
+
 //: *Note:* unlike math, where `x = 10` and `10 = x` are interchangeable, in programming the variable goes on the left of the `=` symbol, and the new value goes on the right.
 
 
@@ -44,9 +46,10 @@ var goodbye = "Go fuck yourself."
 
 count = count + 1
 
-//: *Note:* If you're ever unsure of the contents of a variable in a playground, write the variable on a line by itself and you will see its value printed to the right of it. Or you can use the `print` function like so: `print(variableName)`.
-
 count
+
+
+//: *Note:* If you're ever unsure of the contents of a variable in a playground, write the variable on a line by itself and you will see its value printed to the right of it. Or you can use the `print` function like so: `print(variableName)`.
 
 print(goodbye)
 
@@ -108,8 +111,8 @@ var height: Double = 99.999999
 var schoolName = "Lighthouse Labs"
 
 
-greeting.uppercased()
-greeting.lowercased()
+schoolName.uppercased()
+schoolName.lowercased()
 
 
 
